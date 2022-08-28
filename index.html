@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap5-project 1</title>
+    <link rel="stylesheet" href="Css/bootstrap.css" />
+    <link rel="stylesheet" href="Css/all.min.css" />
+    <link rel="stylesheet" href="Css/main.css" />
+  </head>
+  <!-- start upper-bar -->
+  <div class="upper-bar lead" style="background-color: #c08a37">
+    <div class="container py-1">
+      <div class="row justify-content-between">
+        <div class="col-sm text-light">
+          <span><i class="fa-solid fa-phone"></i></span> 01097505107
+          <span><i class="fa-solid fa-envelope"></i></span> ahmed@gmail.com
+        </div>
+        <div class="col-sm text-light text-end">
+          LET'S WORK TOGETHER !
+          <button
+            type="button"
+            class="btn btn-outline-success text-light py-0 ms-3"
+          >
+            Get qoute
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end upper bar -->
+  <!-- start nav-bar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <span>Ahmed</span>
+        <span class="text-success">Elshanecy</span>
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#main"
+        aria-controls="main"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="main">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-success active" aria-current="page" href="#"
+              >About</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- end nav-bar -->
+  <!-- start slider -->
+  <div class="slider" id="slider">
+    <div id="main-slider" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-inner">
+        <h1>We're an Independent Design & <span>Development</span> Agency.</h1>
+        <div class="overlay"></div>
+        <div class="carousel-item carousel-one active">
+          <img src="Imgs/slide3.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item carousel-two">
+          <img src="Imgs/slide1.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item carousel-three">
+          <img src="Imgs/slide2.jpg" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#main-slider"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#main-slider"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#main-slider"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#main-slider"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#main-slider"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <!-- end slider -->
+  <!--  strat features -->
+  <div class="features pt-5">
+    <div class="container">
+      <div class="boxes row">
+        <div class="col-lg-3 col-md-6 box">
+          <span><i class="fa-solid fa-lightbulb"></i></span>
+          <h4>Great Ideas</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do
+            eiusmod tempor incididunt.
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-6 box">
+          <span> <i class="fa-solid fa-wrench"></i></span>
+          <h4>Quick Settings</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do
+            eiusmod tempor incididunt.
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-6 box">
+          <span><i class="fa-solid fa-cloud"></i></span>
+          <h4>Cloud Services</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do
+            eiusmod tempor incididunt.
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-6 box">
+          <span> <i class="fa-solid fa-phone"></i></span>
+          <h4>Cross Development</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do
+            eiusmod tempor incididunt.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end features  -->
+  <!-- start company overveiw -->
+  <div class="company">
+    <div class="container">
+      <h2>Company Overveiw</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vestibulum
+        ante ipsum primis in faucibus orci luctus et ultrices posuere cubilla.
+        sed do eiusmod tempor incididunt ut labore et dolore.
+      </p>
+      <p>Let's Start Today</p>
+      <button type="button" class="btn btn-success">Veiw More</button>
+    </div>
+  </div>
+
+  <!-- end company overveiw -->
+  <!-- start Featured Work -->
+  <div class="featured-work">
+    <div class="container">
+      <h2>Featured Work</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua Ut enim veniam.
+      </p>
+      <div class="buttons">
+        <button type="button" class="btn btn-outline-success" data-show="all">
+          all
+        </button>
+        <button
+          type="button"
+          class="btn btn-outline-success"
+          data-show="website"
+        >
+          website
+        </button>
+        <button type="button" class="btn btn-outline-success" data-show="logos">
+          LOGO & BRANDING
+        </button>
+        <button
+          type="button"
+          class="btn btn-outline-success"
+          data-show="graphic"
+        >
+          GRAPHIC DESIGN
+        </button>
+        <button
+          type="button"
+          class="btn btn-outline-success"
+          data-show="marketing"
+        >
+          ONLINE MARKETING
+        </button>
+        <button type="button" class="btn btn-outline-success" data-show="video">
+          VIDEO
+        </button>
+      </div>
+    </div>
+    <div class="imgs row gx-0">
+      <div class="shuffel-imgs">
+        <div class="row gx-0">
+          <img
+            class="col-lg-3 col-md-6 website all"
+            src="Imgs/featured_work-1.jpg"
+            alt=""
+          />
+          <img
+            class="col-lg-3 col-md-6 logos all"
+            src="Imgs/featured_work-2.jpg"
+            alt=""
+          />
+          <!-- <img
+        class="col-lg-3 col-md-6 graphic"
+        src="Imgs/featured_work-3.jpg"
+        alt=""
+      /> -->
+          <img
+            class="col-lg-3 col-md-6 marketing all"
+            src="Imgs/featured_work-4.jpg"
+            alt=""
+          />
+          <img
+            class="col-lg-3 col-md-6 graphic all"
+            src="Imgs/featured_work-5.jpg"
+            alt=""
+          />
+        </div>
+        <div class="row gx-0 justify-content-center">
+          <img
+            class="col-lg-3 col-md-6 website all"
+            src="Imgs/featured_work-6.jpg"
+            alt=""
+          />
+          <img
+            class="col-lg-3 col-md-6 logos all"
+            src="Imgs/featured_work-7.jpg"
+            alt=""
+          />
+          <img
+            class="col-lg-3 col-md-6 video all"
+            src="Imgs/featured_work-8.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end Featured Work -->
+  <!-- start Latest Post -->
+  <div class="latest">
+    <div class="container">
+      <div class="text">
+        <h2>Latest Post</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim
+          veniam.
+        </p>
+      </div>
+      <div class="row justify-content-center">
+        <div class="card col-lg-3 px-0" style="width: 25rem">
+          <img src="Imgs/latest_post-1.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">
+              How latest technologies changing people's life
+            </h5>
+            <p class="card-text">
+              <small class="text-muted">March 24, 2017</small>
+            </p>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipisc ing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <a href="#" class="btn btn-success">Read more</a>
+          </div>
+        </div>
+        <div class="card col-lg-3 px-0" style="width: 25rem">
+          <img src="Imgs/latest_post-2.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">
+              5 Thing to know before you start new blog
+            </h5>
+            <p class="card-text">
+              <small class="text-muted">March 24, 2017</small>
+            </p>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipisc ing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <a href="#" class="btn btn-success">Read more</a>
+          </div>
+        </div>
+        <div class="card col-lg-3 px-0" style="width: 25rem">
+          <img src="Imgs/latest_post-3.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">
+              2017 is the year of startups are you for it
+            </h5>
+            <p class="card-text">
+              <small class="text-muted">March 24, 2017</small>
+            </p>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipisc ing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <a href="#" class="btn btn-success">Read more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end Latest Post -->
+  <!-- start tests -->
+  <div class="tests">
+    <div class="overlay"></div>
+    <div class="container">
+      <div id="tests" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#tests"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#tests"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#tests"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="Imgs/test-01.jpg"
+              class="d-block w-50"
+              alt=""
+              style="opacity: 0"
+            />
+            <div class="carousel-caption d-md-block">
+              <img src="Imgs/test-01.jpg" class="d-block" alt="first-img" />
+              <h5>Ahmed Elshanecy</h5>
+              <span>Engineer</span>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet
+                incidunt eveniet magni sequi? Expedita, similique nam tempore
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="Imgs/test-01.jpg"
+              class="d-block w-50"
+              alt=""
+              style="opacity: 0"
+            />
+            <div class="carousel-caption d-md-block">
+              <img src="Imgs/test-03.jpg" class="d-block" alt="socend-img" />
+              <h5>Exetroo</h5>
+              <span>Gamer</span>
+
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+                commodi dignissimos harum deleniti incidunt doloremque fugiat,
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="Imgs/test-01.jpg"
+              class="d-block w-50"
+              alt=""
+              style="opacity: 0"
+            />
+            <div class="carousel-caption d-md-block">
+              <img src="Imgs/test-02.jpg" class="d-block" alt="third-img" />
+              <h5>الحج صاحب الموقع</h5>
+              <span>programmer</span>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+                reiciendis dolores vitae alias dolorum ut, temporibus blanditiis
+                <br />
+                بس بالعربي بقي
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#tests"
+          data-bs-slide="prev"
+        >
+          <span
+            class="carousel-control-prev-icon btn btn-outline-success"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#tests"
+          data-bs-slide="next"
+        >
+          <span
+            class="carousel-control-next-icon btn btn-outline-success"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- end tests -->
+  <!-- start pricing -->
+  <div class="pricing">
+    <div class="container">
+      <h2>Pricing Table</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua Ut enim veniam.
+      </p>
+      <div class="row justify-content-around">
+        <div class="card col-lg-3 px-0 mt-4" style="width: 20rem">
+          <div class="card-body">
+            <h5 class="card-title">Small Business</h5>
+            <p class="card-text">
+              <small class="text-muted">Lorem ipsum</small>
+            </p>
+            <div class="price">$99/ <span>YEAR</span></div>
+            <ul>
+              <li>1 Hosting</li>
+              <li>Upto 10 users</li>
+              <li>3 databases</li>
+              <li>Website builder</li>
+              <li>Email Support</li>
+            </ul>
+
+            <a href="#" class="btn btn-success">BUY NOW</a>
+          </div>
+        </div>
+        <div class="card col-lg-5 px-0" style="width: 22rem">
+          <div class="card-body">
+            <h5 class="card-title">Corporate</h5>
+            <p class="card-text">
+              <small class="text-muted">Lorem ipsum</small>
+            </p>
+            <div class="price active">$199/ <span>YEAR</span></div>
+            <ul>
+              <li>1 Hosting</li>
+              <li>Upto 10 users</li>
+              <li>3 databases</li>
+              <li>Website builder</li>
+              <li>Email Support</li>
+            </ul>
+
+            <a href="#" class="btn btn-warning">BUY NOW</a>
+          </div>
+        </div>
+        <div class="card col-lg-3 px-0 mt-4" style="width: 20rem">
+          <div class="card-body">
+            <h5 class="card-title">Enterprices</h5>
+            <p class="card-text">
+              <small class="text-muted">Lorem ipsum</small>
+            </p>
+            <div class="price">$299/ <span>YEAR</span></div>
+            <ul>
+              <li>1 Hosting</li>
+              <li>Upto 10 users</li>
+              <li>3 databases</li>
+              <li>Website builder</li>
+              <li>Email Support</li>
+            </ul>
+
+            <a href="#" class="btn btn-success">BUY NOW</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end pricing -->
+  <!-- start about us -->
+  <div class="about-us py-5">
+    <div class="row g-0">
+      <div class="col-lg-6 img">
+        <img src="Imgs/about-us__480.jpg" alt="" />
+      </div>
+      <div class="col-lg-6 col-md-12 text">
+        <div class="text-content">
+          <h3>Why Choose Us</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            pariatur. <br />
+            <br />
+
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <button type="button" class="btn btn-success">VIEW MORE</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end about us -->
+
+  <!-- // start statistics -->
+  <div class="statistics" id="stats">
+    <div class="container">
+      <div class="row">
+        <div class="box col-lg-3 col-md-6">
+          <span><i class="fa-solid fa-file-shield"></i></span>
+          <span class="number" data-target="99">0</span>
+          <div class="text">PROJECTS</div>
+        </div>
+        <div class="box box col-lg-3 col-md-6">
+          <span><i class="fa-solid fa-user"></i></span>
+          <span class="number" data-target="65">0</span>
+          <div class="text">CUSTOMERS</div>
+        </div>
+        <div class="box box col-lg-3 col-md-6">
+          <span><i class="fa-solid fa-mug-hot"></i></span>
+          <span class="number" data-target="1204">0</span>
+          <div class="text">COFFEE</div>
+        </div>
+        <div class="box box col-lg-3 col-md-6">
+          <span><i class="fa-solid fa-download"></i></span>
+          <span class="number" data-target="4060">0</span>
+          <div class="text">APP DOWNLOADS</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- // end statistics -->
+  <!-- /* start contact us */ -->
+  <div class="contact">
+    <div class="container justify-content-between">
+      <div class="row">
+        <div class="text col-md-8">
+          You think we're cool? let's work together
+        </div>
+        <div class="button col-md-3">
+          <button type="button" class="btn btn-outline-danger">
+            CONTACT US
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- /* end contact us */ -->
+  <!-- start footer -->
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 text">
+          <h3>Ahmed <span>Elshanecy</span></h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, ut labore
+            et dolore magna aliqua. Ut enim ad minim veniam. quis nostrud
+            exercitation ullamco laboris commodo conse.
+          </p>
+          <div class="link">
+            <span><i class="fa-solid fa-circle-chevron-right"></i></span>
+            <a href="">Read more</a>
+          </div>
+        </div>
+        <div class="col-lg-4 links">
+          <h4>Helpful Links</h4>
+          <div class="row justify-content-start">
+            <div class="col-5">
+              <ul>
+                <li><a href="">About</a></li>
+                <li><a href="">Portfolio</a></li>
+                <li><a href="">Team</a></li>
+                <li><a href="">Pricing</a></li>
+                <li><a href="">Privacy Policy</a></li>
+              </ul>
+            </div>
+            <div class="col-5">
+              <ul>
+                <li><a href="">FAQ</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">How It Works</a></li>
+                <li><a href="">Benefits</a></li>
+                <li><a href="">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 info">
+          <h4>Contact Us</h4>
+          <p>
+            54958 Levo Road Near Red Fort, U.S <br />
+            Phone: 012-12345678 <br />
+            Email: info@elitecorp.com
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end footer -->
+  <!-- start copy Rights -->
+  <div class="copy-rights">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="text col-md-4">
+          COPYRIGHT 2017 ELITECORP | ALL RIGHTS RESERVED
+        </div>
+        <div class="icons col-md-4">
+          <span><i class="fa-brands fa-facebook-f"></i></span>
+          <span><i class="fa-brands fa-twitter"></i></span>
+          <span><i class="fa-brands fa-linkedin-in"></i></span>
+          <span><i class="fa-brands fa-instagram"></i></span>
+          <span><i class="fa-brands fa-google"></i></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end copy Rights -->
+  <body>
+    <script src="Js/all.min.js"></script>
+    <script src="Js/main.js"></script>
+    <script src="Js/bootstrap.js"></script>
+  </body>
+</html>
